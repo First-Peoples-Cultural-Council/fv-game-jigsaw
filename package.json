@@ -1,7 +1,7 @@
 {
-    "name": "fv-game-jigsaw",
+    "name": "@fpcc/fv-game-jigsaw",
     "version": "1.0.0",
-    "description": "",
+    "description": "Jigsaw game for FirstVoices.com",
     "main": "scripts/game.js",
     "scripts": {
       "develop": "webpack-dev-server --config webpack.config.js --progress --colors --content-base www/",

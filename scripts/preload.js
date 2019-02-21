@@ -29,7 +29,6 @@ class Preload {
         this.game.add.existing(this.status);
         this.game.load.setPreloadSprite(this.loadingBar);
         
-        this.load.script('jigsaw', config.libs.bitmapJigsawScript);
         this.load.image('background', config.images.backgroundImage);
         this.load.image('wellDone', config.images.youWin);
         this.load.image('easy', config.images.easy);
