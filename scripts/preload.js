@@ -35,6 +35,9 @@ class Preload {
         this.load.image('medium', config.images.medium);
         this.load.image('hard', config.images.hard);
 
+        // Ensure a cross origin header is sent
+        this.load.crossOrigin = true;
+
         config.words.forEach((word, index)=>{
             word.pictureKey = `puzzle_${index}_picture`;
             word.audioKey = `puzzle_${index}_sound`;
